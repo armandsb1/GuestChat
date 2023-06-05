@@ -10,8 +10,8 @@ const webChatApi = new platformClient.WebChatApi();
 
 
 const createChatBody = {
-  organizationId: '0b64ef26-3681-4cbf-9675-9154ddc0456a',
-  deploymentId: 'a8a8700e-ed11-4163-b872-62706fd62c87',
+  organizationId: 'aaa',
+  deploymentId: 'bbb',
   routingTarget: {
     targetType: 'QUEUE',
     targetAddress: 'Test queue',
